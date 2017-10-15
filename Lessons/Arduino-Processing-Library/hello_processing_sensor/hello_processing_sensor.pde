@@ -1,3 +1,6 @@
+// hello processing but sensor input
+// dependencies -- arduino library and StandardFirmata
+
 import processing.serial.*;
 import cc.arduino.*;
 

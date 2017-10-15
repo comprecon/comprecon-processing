@@ -1,3 +1,4 @@
+// copy/paste of resulting code from hello.processing.org tutorial
 void setup() {
   size(500, 400);
   background(10, 80, 100);

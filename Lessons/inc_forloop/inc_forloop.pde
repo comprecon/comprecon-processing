@@ -1,3 +1,6 @@
+// uses incrementing to animate
+// uses a for loop to make many similar instances
+
 float opacity = 255;
 float snowYpos = 0;
 

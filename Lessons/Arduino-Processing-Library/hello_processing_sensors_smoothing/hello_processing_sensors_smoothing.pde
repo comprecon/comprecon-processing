@@ -1,3 +1,6 @@
+// uses multiple inputs and Smoothers to smooth the data
+// dependencies -- arduino library and StandardFirmata
+
 import processing.serial.*;
 import cc.arduino.*;
 

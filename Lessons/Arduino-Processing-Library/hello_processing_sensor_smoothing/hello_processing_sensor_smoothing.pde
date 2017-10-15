@@ -1,3 +1,6 @@
+// uses a sensor, but also uses a Smoother_class to smooth the data
+// dependencies -- arduino library and StandardFirmata
+
 import processing.serial.*;
 import cc.arduino.*;
 
