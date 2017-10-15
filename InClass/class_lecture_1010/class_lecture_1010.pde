@@ -1,3 +1,5 @@
+// from lecture on October 10, 2017
+
 //int r1 = 255;
 //int g1 = 234;
 int b1 = 40;
