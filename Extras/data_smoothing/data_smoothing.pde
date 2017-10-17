@@ -14,10 +14,10 @@ void setup() {
 void draw() {
   
   // read data
-  rawData = int(random(1000));                    // replace with your data source
+  rawData = int(random(1000)); // replace with your data source
   
   // smooth data
-  smoothedValue = foo.average(rawData);    // use smoothed value
-  println(smoothedValue);                           // print value to console
+  smoothedValue = foo.average(rawData); // use smoothed value
+  println(smoothedValue); // print value to console
 
 }

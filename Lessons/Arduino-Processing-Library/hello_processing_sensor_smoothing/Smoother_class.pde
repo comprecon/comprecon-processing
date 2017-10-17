@@ -55,7 +55,7 @@ class Smoother {
     }
   
     average = total / numReadings;       // calculate the average
-    //delay(1);                            // delay in between reads for stability
+
     
     return average;                    
   }  

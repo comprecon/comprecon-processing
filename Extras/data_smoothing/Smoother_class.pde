@@ -6,6 +6,8 @@
   link above, and assign the pin data to rawData in the draw() loop. 
   Ex: rawData = myArduino.analogRead(0);
   
+  Note: ONLY WORKS WITH INTS
+  
   Using the Smoother class requires the following:
   
   1. calling the object. 

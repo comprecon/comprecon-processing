@@ -26,7 +26,7 @@ void draw() {
   rawData = myArduino.analogRead(0); // read pin 0 on the arduino
   //println(rawData);
   
-  floatValue = float(rawData); // convert to float to work with ellipse()
+  //floatValue = float(rawData); // convert to float to work with ellipse()
   
   if (mousePressed) {
     background(10, 80, 100);
