@@ -42,16 +42,23 @@ void setup() {
   println(Arduino.list());
   
   // initialize arduino object
-  // [0] should match the correct port in the list it prints out
+  // IMPORTANT -- [0] should match the correct port in the list
   myArduino = new Arduino(this, Arduino.list()[0], 57600);   
 }
 
 void draw() {
+  
+  // read the camera if it's available
   if (cam.available() == true) {
     cam.read();
   }
   
-  knobValue = myArduino.analogRead(0); // read pin 0 on the arduino
+  // read pin from Arduino
+  knobValue = myArduino.analogRead(0); 
   
+  // change tint/brightness using knobValue from Arduino
+  tint(knobValue);
+  
+  // draw the video
   image(cam, 0, 0, width, height);
 }
