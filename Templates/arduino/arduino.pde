@@ -17,7 +17,7 @@ void setup() {
   println(Arduino.list());
   
   // initialize arduino object
-  // [0] should match the correct port in the list it prints out
+  // IMPORTANT -- [0] should match the correct port in the list
   myArduino = new Arduino(this, Arduino.list()[0], 57600);   
 }
 
